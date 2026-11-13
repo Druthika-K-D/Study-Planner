@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Planner V2</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+                <h2>📚 Subjects</h2>
+
+                <button id="themeToggle">
+                    🌙
+                </button>
+            </div>
+
+            <div id="subjectList"></div>
+
+            <button id="addSubjectBtn">
+                + Add Subject
+            </button>
+
+        </aside>
+
+        <main class="main-content">
+
+            <h1>Study Planner Dashboard</h1>
+
+            <div class="stats">
+
+                <div class="card">
+                    <h3>Total Subjects</h3>
+                    <p id="totalSubjects">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Completed Topics</h3>
+                    <p id="completedTopics">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Progress</h3>
+                    <p id="progressPercent">0%</p>
+                </div>
+
+            </div>
+
+            <div id="workspace">
+
+                <h2>Select a Subject</h2>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
